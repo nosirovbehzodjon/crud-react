@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.input {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
